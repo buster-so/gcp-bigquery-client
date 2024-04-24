@@ -41,6 +41,9 @@ cloud-storage = {version="0.11.1", features = ["global-client"], optional = true
 async-trait = "0.1.68"
 dyn-clone = "1.0.11"
 
+[patch.crates-io]
+yup-oauth2 = { git = "https://github.com/buster-so/yup-oauth2.git" }
+
 [dev-dependencies]
 tokio-test = "0.4"
 rand = "0.8"
